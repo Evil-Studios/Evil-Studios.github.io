@@ -1,1 +1,48 @@
+@font-face {
+    font-family: EvilFont;
+    src: url('../fonts/shlop_rg.ttf');
+    src: url('../fonts/it_lives_in_the_swamp.ttf');
+}
 
+body {
+    background-color: #131313;
+    color: #cccccc;
+}
+
+.relative {
+    position: relative;
+}
+
+.bg-dark {
+    background-color: #383838 !important;
+}
+
+.bg-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+a {
+    color: #198546 !important; 
+}
+
+.font-evil {
+    font-family: EvilFont, sans-serif;
+}
+
+.color-evil {
+    color: #0a6931;
+}
+
+.font-lg {
+    font-size: 2rem;
+}
+
+hr {
+    border-color: #0a6931;
+    width: 25%;
+}

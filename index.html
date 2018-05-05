@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+    <base href="/">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -17,15 +19,79 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Evil Studios</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Evil Studios</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#games">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
-    <div class="container-fluid">
-        <h2 class="text-center mt-5">
-            <i>Under Development...</i>
-        </h2>
+    <div class="container text-center mt-5" id="about">
+        <p class="font-evil color-evil font-lg">
+            "The gang joined in 2016 for the very first gamejam...
+            <br> When we met, we just knew.
+            <br> It was right.
+            <br> It felt right.
+            <br> We were...
+            <br>
+            <br> EVIL"
+        </p>
+
+        <p>
+            So, after that dramatic intro, who the heck are we, are you asking?
+            <br> We are a group of people enthusiastic about the art of game-making.
+            <br> Patched up together, we try to bring fun
+            <i>(and a good amount of evilness)</i> into this world.
+        </p>
     </div>
+
+    <hr class="color-evil mt-5">
+
+    <div class="container text-center" id="games">
+        <h2>Games</h2>
+
+        <div class="row">
+            <div class="col-9 bg-dark">
+                CONTENT
+            </div>
+            <div class="col-3 bg-dark">
+                CONTENT
+            </div>
+        </div>
+
+        <p>
+            <i>Under Development...</i>
+        </p>
+    </div>
+
+    <hr class="color-evil mt-5">
+
+    <div class="container-fluid text-center" id="contacts">
+        <h2>Contacts</h2>
+
+        <p>
+            <i>Under Development...</i>
+        </p>
+    </div>
+
+    <script src="content/vendor/jquery-3.3.1/js/jquery.min.js"></script>
+    <script src="content/vendor/bootstrap-4.1.1/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
